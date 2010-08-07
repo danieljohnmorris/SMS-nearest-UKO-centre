@@ -1,0 +1,17 @@
+development:
+    clickatell: 
+        api_id: YOUR_ID_HERE
+        username: YOUR_USERNAME_HERE
+        password: YOUR_PASSWORD_HERE
+
+test:
+    clickatell: 
+        api_id: YOUR_ID_HERE
+        username: YOUR_USERNAME_HERE
+        password: YOUR_PASSWORD_HERE
+        
+production:
+    clickatell: 
+        api_id: YOUR_ID_HERE
+        username: YOUR_USERNAME_HERE
+        password: YOUR_PASSWORD_HERE
