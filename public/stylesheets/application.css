@@ -4,16 +4,28 @@ body {
 form {
 	position: relative;
 }
+h3 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+}
 
 #phone { 
 	height: 700px;
 	background-image: url('/images/phone.png');
 	background-repeat: no-repeat;
-	padding: 15em 0 0 5em;
+	padding: 8em 0 0 5em;
 }
+	#phone p {
+		font-size: 1.5em;
+		margin: 10px 0 0 0;
+	}
 	#phone input { 
 		font-size: 1.5em;
-		width: 8em;
+		width: 5em;
 	}
 	#phone button { 
 		font-size: 1.5em;
