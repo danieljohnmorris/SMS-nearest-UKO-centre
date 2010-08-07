@@ -1,0 +1,2036 @@
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 03:06:06) [GET]
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/index_controller.rb:3:in `initialize'
+  app/controllers/index_controller.rb:3:in `new'
+  app/controllers/index_controller.rb:3:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (45.8ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 03:06:22) [GET]
+
+NoMethodError (undefined method `create' for SMS:Class):
+  app/controllers/index_controller.rb:3:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (53.6ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 03:06:36) [GET]
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/index_controller.rb:3:in `initialize'
+  app/controllers/index_controller.rb:3:in `new'
+  app/controllers/index_controller.rb:3:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (188.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 03:07:33) [GET]
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/index_controller.rb:3:in `initialize'
+  app/controllers/index_controller.rb:3:in `new'
+  app/controllers/index_controller.rb:3:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (67.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 03:08:12) [GET]
+
+NameError (uninitialized constant SMS::Clickatell):
+  app/models/sms.rb:8:in `api'
+  app/models/sms.rb:3:in `create'
+  app/controllers/index_controller.rb:4:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (157.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 03:08:44) [GET]
+Rendering index/index
+Completed in 1637ms (View: 151, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 10:45:39) [GET]
+Rendering index/index
+Completed in 1767ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 10:46:22) [GET]
+Rendering index/index
+Completed in 1381ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:39:34) [GET]
+Rendering index/index
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:39:36) [GET]
+Rendering index/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:39:43) [GET]
+Rendering index/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:39:45) [GET]
+Rendering index/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:39:46) [GET]
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:39:46) [GET]
+Rendering index/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:41:05) [GET]
+
+ActionView::MissingTemplate (Missing layout layouts/application.erb in view path app/views):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:41:15) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:43:29) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 86ms (View: 85, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:44:39) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 35ms (View: 33, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:44:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:44:39) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:44:47) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 73ms (View: 71, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:44:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:44:47) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:49:11) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:49:11) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:49:11) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:50:09) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:50:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:50:09) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:51:57) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:51:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:51:57) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:53:50) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:53:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:53:50) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:54:56) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:54:56) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:54:57) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:54:57) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:55:37) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:55:37) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:55:38) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:55:38) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:55:41) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:55:41) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:56:13) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:56:13) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:56:18) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:56:18) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:56:35) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:56:36) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:56:36) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:56:36) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:57:39) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:57:40) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:57:52) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:57:52) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:57:56) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:57:56) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:58:33) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:58:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:58:37) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:58:37) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:59:08) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:59:08) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:59:44) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:59:44) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:59:48) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:59:48) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 11:59:54) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 11:59:55) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:00:00) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:00:00) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:00:03) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:00:03) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:00:29) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:00:29) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:00:38) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:00:39) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:00:42) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:00:42) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:00:48) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:00:48) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:01:23) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:01:23) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:01:28) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:01:28) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:01:36) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:01:36) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:01:40) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:01:40) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:01:55) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:01:55) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:01:59) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:02:00) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:02:02) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:02:02) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:02:05) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:02:05) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:02:08) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:02:08) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:03:44) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:03:44) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:43:43) [POST]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+ActionController::RoutingError (No route matches "/search" with {:method=>:post}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-08-07 12:46:56) [POST]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (38.8ms)
+Rendered rescues/_request_and_response (12.8ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:47:03) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 154ms (View: 152, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:47:03) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:47:12) [POST]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (100.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:51:17) [POST]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (122.4ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:51:34) [POST]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (98.3ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:51:36) [POST]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:52:07) [POST]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (114.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:54:30) [POST]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+URI::InvalidURIError (bad URI(is not URI?): http://ukonline.talusdesign.co.uk/api/nearest_by_postcode/n1 7rd/):
+  /opt/local/lib/ruby/1.8/uri/common.rb:436:in `split'
+  /opt/local/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  app/controllers/search_controller.rb:11:in `postcode'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:56:34) [POST]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+ActionView::MissingTemplate (Missing template search/postcode.erb in view path app/views):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:56:44) [POST]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+RuntimeError ([{"penportrait"=>"", "name"=>"The Foundation Training Company Limited", "sectortype"=>"Community / Voluntary", "thursdayopento"=>"05:00:00 PM", "satudayopento"=>"12:00:00 AM", "parkingfacilitiesdesc"=>"", "sundayopento"=>"12:00:00 AM", "mondayopento"=>"05:00:00 PM", "location"=>"0101000020E610000033BAFFBFCB7EB5BF0000000078C34940", "isgold"=>false, "addr2"=>"1-11 Baches Street", "accessfacilitiesdesc"=>"Door Entry System based on ground floor", "numworkstations"=>"14", "parkingfacilities"=>"No", "tuesdayopenfrom"=>"09:00:00 AM", "centretype"=>"Community/Voluntary Centre", "targetaudience"=>"Ex-offenders", "mondayopenfrom"=>"09:00:00 AM", "crechefacilities"=>"No", "fridayopento"=>"05:00:00 PM", "saturdayopenfrom"=>"12:00:00 AM", "thursdayopenfrom"=>"09:00:00 AM", "lng"=>nil, "street"=>"Karen House", "county"=>"London", "client_id"=>3420788, "regionid"=>"London", "sundayopenfrom"=>"12:00:00 AM", "kml_str"=>"<Point><coordinates>-0.083966,51.52709961</coordinates></Point>", "tuesdayopento"=>"05:00:00 PM", "charges"=>"No charges applicable", "cafecateringfacilities"=>"Yes", "phone"=>"0207 549 2166", "fax"=>"0207 549 6737", "cateringdesc"=>"Kitchen for drinks only", "website"=>"http://www.ftctraining.org", "desconfcentrelocation"=>"5 minutes walking distance from Old Street underground station", "fridayopenfrom"=>"09:00:00 AM", "pc"=>"N1 6DH", "town"=>"London", "lat"=>nil, "genopenhourcomments"=>"", "wednesdayopento"=>"05:00:00 PM", "membershipstatus"=>"Yes", "distance"=>"390.531797065 m", "email"=>"simonw@ftctraining.org", "wednesdayopenfrom"=>"09:00:00 AM", "crechefacilitiesdesc"=>"", "kml"=>"<Point><coordinates>-0.083966,51.52709961</coordinates></Point>"}, {"penportrait"=>"", "name"=>"St Luke's Centre", "sectortype"=>"Community / Voluntary", "thursdayopento"=>"05:00:00 PM", "satudayopento"=>"12:00:00 AM", "parkingfacilitiesdesc"=>"In general there is no parking, but special arrangements could be made for disabled visitors", "sundayopento"=>"12:00:00 AM", "mondayopento"=>"05:00:00 PM", "location"=>"0101000020E6100000ED110020616DB8BF010000C050C34940", "isgold"=>false, "addr2"=>"", "accessfacilitiesdesc"=>"", "numworkstations"=>"8", "parkingfacilities"=>"No", "tuesdayopenfrom"=>"09:00:00 AM", "centretype"=>"Community/Voluntary Centre", "targetaudience"=>"People Over 50", "mondayopenfrom"=>"09:00:00 AM", "crechefacilities"=>"Yes", "fridayopento"=>"05:00:00 PM", "saturdayopenfrom"=>"12:00:00 AM", "thursdayopenfrom"=>"09:00:00 AM", "lng"=>nil, "street"=>"90 Central Street", "county"=>"London", "client_id"=>3420363, "regionid"=>"London", "sundayopenfrom"=>"12:00:00 AM", "kml_str"=>"<Point><coordinates>-0.095419,51.52590179</coordinates></Point>", "tuesdayopento"=>"05:00:00 PM", "charges"=>"Free but excessive printing will be charged", "cafecateringfacilities"=>"Yes", "phone"=>"0207 549 8181", "fax"=>"", "cateringdesc"=>"A full lunch service is available. A cafe/juice bar will be started in summer 2008.", "website"=>"http://www.slpt.org.uk", "desconfcentrelocation"=>"Next to Finsbury leisure centre. South Islington, close to Old Street and Barbican underground stations. Buses nearby on City road and Old street.", "fridayopenfrom"=>"09:00:00 AM", "pc"=>"EC1V 8AJ", "town"=>"Islington", "lat"=>nil, "genopenhourcomments"=>"The community centre holds occasional classes and public access will not be available during these times.", "wednesdayopento"=>"08:30:00 PM", "membershipstatus"=>"Yes", "distance"=>"640.970427037 m", "email"=>"info@slpt.org.uk", "wednesdayopenfrom"=>"09:00:00 AM", "crechefacilitiesdesc"=>"The charity does not provide it's own creche although it does have a registered creche space for a mibile creche to use. Groups wishing to block book the IT suite can make their own arrangements to use the creche", "kml"=>"<Point><coordinates>-0.095419,51.52590179</coordinates></Point>"}, {"penportrait"=>"", "name"=>"Canalside Residents Community Centre", "sectortype"=>"Community / Voluntary", "thursdayopento"=>"06:00:00 PM", "satudayopento"=>"01:00:00 PM", "parkingfacilitiesdesc"=>"Roadside parking with council or residents visitors permits", "sundayopento"=>"01:00:00 PM", "mondayopento"=>"06:00:00 PM", "location"=>"0101000020E6100000F789FF9F5390B3BFFFFFFFDF7AC44940", "isgold"=>false, "addr2"=>"2-6 Phillipp Street", "accessfacilitiesdesc"=>"", "numworkstations"=>"15", "parkingfacilities"=>"Yes", "tuesdayopenfrom"=>"10:00:00 AM", "centretype"=>"Community/Voluntary Centre", "targetaudience"=>"Families in poverty", "mondayopenfrom"=>"01:00:00 PM", "crechefacilities"=>"Yes", "fridayopento"=>"02:00:00 PM", "saturdayopenfrom"=>"10:00:00 AM", "thursdayopenfrom"=>"01:00:00 PM", "lng"=>nil, "street"=>"Bolt House", "county"=>"London", "client_id"=>3420635, "regionid"=>"London", "sundayopenfrom"=>"10:00:00 AM", "kml_str"=>"<Point><coordinates>-0.076421,51.53499985</coordinates></Point>", "tuesdayopento"=>"06:00:00 PM", "charges"=>"None for local residents of housing association or young people.", "cafecateringfacilities"=>"Yes", "phone"=>"0207 739 0685", "fax"=>"", "cateringdesc"=>"Self service kitchen with two serving hatches", "website"=>"", "desconfcentrelocation"=>"Off Kingsland Road E8 close to the City in the ward of Hoxton", "fridayopenfrom"=>"10:00:00 AM", "pc"=>"N1 5NU", "town"=>"Hoxton", "lat"=>nil, "genopenhourcomments"=>"These hours are provisional and dependant on funding.", "wednesdayopento"=>"07:00:00 PM", "membershipstatus"=>"Yes", "distance"=>"1017.55177823 m", "email"=>"email@gemsoutreach.org", "wednesdayopenfrom"=>"04:00:00 PM", "crechefacilitiesdesc"=>"", "kml"=>"<Point><coordinates>-0.076421,51.53499985</coordinates></Point>"}, {"penportrait"=>"", "name"=>"Halkevi", "sectortype"=>"Community / Voluntary", "thursdayopento"=>"07:00:00 PM", "satudayopento"=>"12:00:00 AM", "parkingfacilitiesdesc"=>"P&D on street", "sundayopento"=>"12:00:00 AM", "mondayopento"=>"07:00:00 PM", "location"=>"0101000020E61000001B7DFFBF7493B4BF03000040EAC44940", "isgold"=>false, "addr2"=>"", "accessfacilitiesdesc"=>"Disabled access & toilets & parking", "numworkstations"=>"13", "parkingfacilities"=>"No", "tuesdayopenfrom"=>"09:30:00 AM", "centretype"=>"Community/Voluntary Centre", "targetaudience"=>"Ethnic Minorities", "mondayopenfrom"=>"09:30:00 AM", "crechefacilities"=>"No", "fridayopento"=>"07:00:00 PM", "saturdayopenfrom"=>"12:00:00 AM", "thursdayopenfrom"=>"09:30:00 AM", "lng"=>nil, "street"=>"65 Downham Road", "county"=>"", "client_id"=>1811, "regionid"=>"London", "sundayopenfrom"=>"12:00:00 AM", "kml_str"=>"<Point><coordinates>-0.080375,51.53839874</coordinates></Point>", "tuesdayopento"=>"07:00:00 PM", "charges"=>"free caters for kurdish and turkish people", "cafecateringfacilities"=>"Yes", "phone"=>"0207 249 6980", "fax"=>"0207 690 4003", "cateringdesc"=>"", "website"=>"", "desconfcentrelocation"=>"off a main rd in a cul-de-sac", "fridayopenfrom"=>"09:30:00 AM", "pc"=>"N1 5AH", "town"=>"London", "lat"=>nil, "genopenhourcomments"=>"", "wednesdayopento"=>"07:00:00 PM", "membershipstatus"=>"Yes", "distance"=>"1129.08114027 m", "email"=>"info@halkevi.com", "wednesdayopenfrom"=>"09:30:00 AM", "crechefacilitiesdesc"=>"no", "kml"=>"<Point><coordinates>-0.080375,51.53839874</coordinates></Point>"}, {"penportrait"=>"", "name"=>"Barbican Library", "sectortype"=>"Public Library", "thursdayopento"=>"12:00:00 AM", "satudayopento"=>"12:00:00 AM", "parkingfacilitiesdesc"=>"", "sundayopento"=>"12:00:00 AM", "mondayopento"=>"12:00:00 AM", "location"=>"0101000020E6100000ACCBFF7F81CBB7BF020000E071C24940", "isgold"=>false, "addr2"=>"Barbican", "accessfacilitiesdesc"=>"", "numworkstations"=>"2", "parkingfacilities"=>"No", "tuesdayopenfrom"=>"12:00:00 AM", "centretype"=>"Branch Library", "targetaudience"=>"", "mondayopenfrom"=>"12:00:00 AM", "crechefacilities"=>"No", "fridayopento"=>"12:00:00 AM", "saturdayopenfrom"=>"12:00:00 AM", "thursdayopenfrom"=>"12:00:00 AM", "lng"=>nil, "street"=>"Silk Street", "county"=>"London", "client_id"=>1518, "regionid"=>"London", "sundayopenfrom"=>"12:00:00 AM", "kml_str"=>"<Point><coordinates>-0.092949,51.51910019</coordinates></Point>", "tuesdayopento"=>"12:00:00 AM", "charges"=>"", "cafecateringfacilities"=>"No", "phone"=>"020 7638 0569", "fax"=>"", "cateringdesc"=>"", "website"=>"", "desconfcentrelocation"=>"", "fridayopenfrom"=>"12:00:00 AM", "pc"=>"EC2Y 8DS", "town"=>"London", "lat"=>nil, "genopenhourcomments"=>"", "wednesdayopento"=>"12:00:00 AM", "membershipstatus"=>"Yes", "distance"=>"1199.75827515 m", "email"=>"barbicanlib@corpoflondon.gov.uk", "wednesdayopenfrom"=>"12:00:00 AM", "crechefacilitiesdesc"=>"", "kml"=>"<Point><coordinates>-0.092949,51.51910019</coordinates></Point>"}, {"penportrait"=>"", "name"=>"Haggerston Neighbourhood Learning Centre (ELATT) 2 centres", "sectortype"=>"Community / Voluntary", "thursdayopento"=>"05:00:00 AM", "satudayopento"=>"12:00:00 AM", "parkingfacilitiesdesc"=>"", "sundayopento"=>"12:00:00 AM", "mondayopento"=>"05:00:00 AM", "location"=>"0101000020E6100000917100609D2AB3BF00000060BCC44940", "isgold"=>false, "addr2"=>"", "accessfacilitiesdesc"=>"lift for disabled access", "numworkstations"=>"30", "parkingfacilities"=>"No", "tuesdayopenfrom"=>"09:00:00 AM", "centretype"=>"Community/Voluntary Centre", "targetaudience"=>"The Unemployed", "mondayopenfrom"=>"09:00:00 AM", "crechefacilities"=>"No", "fridayopento"=>"05:00:00 AM", "saturdayopenfrom"=>"12:00:00 AM", "thursdayopenfrom"=>"09:00:00 AM", "lng"=>nil, "street"=>"260-264 Kingsland Road", "county"=>"GREATER LONDON", "client_id"=>2352, "regionid"=>"London", "sundayopenfrom"=>"12:00:00 AM", "kml_str"=>"<Point><coordinates>-0.074869,51.53699875</coordinates></Point>", "tuesdayopento"=>"05:00:00 AM", "charges"=>"free", "cafecateringfacilities"=>"Yes", "phone"=>"020 7275 6750", "fax"=>"020 7275 6775", "cateringdesc"=>"kitchen for refreshments;  vending machines", "website"=>"http://www.elatt.org.uk", "desconfcentrelocation"=>"main road", "fridayopenfrom"=>"09:00:00 AM", "pc"=>"E8 4DG", "town"=>"LONDON", "lat"=>nil, "genopenhourcomments"=>"", "wednesdayopento"=>"05:00:00 AM", "membershipstatus"=>"Yes", "distance"=>"1242.51308233 m", "email"=>"anthony@elatt.org.uk", "wednesdayopenfrom"=>"09:00:00 AM", "crechefacilitiesdesc"=>"But they contribute to childcare expenses", "kml"=>"<Point><coordinates>-0.074869,51.53699875</coordinates></Point>"}, {"penportrait"=>"", "name"=>"Islington UK Online", "sectortype"=>"Education", "thursdayopento"=>"05:00:00 PM", "satudayopento"=>"12:00:00 AM", "parkingfacilitiesdesc"=>"on site", "sundayopento"=>"12:00:00 AM", "mondayopento"=>"05:00:00 PM", "location"=>"0101000020E6100000CA1800401328BABFFAFFFFBF1EC54940", "isgold"=>false, "addr2"=>"Room 202, 159 Upper Street", "accessfacilitiesdesc"=>"Disabled access & toilets & parking", "numworkstations"=>"9", "parkingfacilities"=>"Yes", "tuesdayopenfrom"=>"09:30:00 AM", "centretype"=>"Adult Education Service", "targetaudience"=>"People Over 50", "mondayopenfrom"=>"09:30:00 AM", "crechefacilities"=>"No", "fridayopento"=>"05:00:00 PM", "saturdayopenfrom"=>"12:00:00 AM", "thursdayopenfrom"=>"09:30:00 AM", "lng"=>nil, "street"=>"London Borough Of Islington", "county"=>"", "client_id"=>1900, "regionid"=>"London", "sundayopenfrom"=>"12:00:00 AM", "kml_str"=>"<Point><coordinates>-0.102174,51.54000092</coordinates></Point>", "tuesdayopento"=>"05:00:00 PM", "charges"=>"", "cafecateringfacilities"=>"Yes", "phone"=>"020 7527 5682", "fax"=>"", "cateringdesc"=>"", "website"=>"http://www.islington.gov.uk", "desconfcentrelocation"=>"main road", "fridayopenfrom"=>"09:30:00 AM", "pc"=>"N1 1RE", "town"=>"ISLINGTON", "lat"=>nil, "genopenhourcomments"=>"", "wednesdayopento"=>"05:00:00 PM", "membershipstatus"=>"Yes", "distance"=>"1521.45520418 m", "email"=>"ann.tayo@islington.gov.uk", "wednesdayopenfrom"=>"09:30:00 AM", "crechefacilitiesdesc"=>"No", "kml"=>"<Point><coordinates>-0.102174,51.54000092</coordinates></Point>"}, {"penportrait"=>"", "name"=>"Heba", "sectortype"=>"Community / Voluntary", "thursdayopento"=>"12:00:00 PM", "satudayopento"=>"12:00:00 AM", "parkingfacilitiesdesc"=>"", "sundayopento"=>"12:00:00 AM", "mondayopento"=>"12:00:00 PM", "location"=>"0101000020E61000000E47000016F9B1BF0600004099C24940", "isgold"=>false, "addr2"=>"", "accessfacilitiesdesc"=>"", "numworkstations"=>"8", "parkingfacilities"=>"No", "tuesdayopenfrom"=>"09:00:00 AM", "centretype"=>"Community/Voluntary Centre", "targetaudience"=>"Ethnic Minorities", "mondayopenfrom"=>"09:00:00 AM", "crechefacilities"=>"Yes", "fridayopento"=>"12:00:00 PM", "saturdayopenfrom"=>"12:00:00 AM", "thursdayopenfrom"=>"09:00:00 AM", "lng"=>nil, "street"=>"164 Brick Lane", "county"=>"London", "client_id"=>3421067, "regionid"=>"London", "sundayopenfrom"=>"12:00:00 AM", "kml_str"=>"<Point><coordinates>-0.070207,51.52030182</coordinates></Point>", "tuesdayopento"=>"12:00:00 PM", "charges"=>"", "cafecateringfacilities"=>"No", "phone"=>"020 7377 0400", "fax"=>"", "cateringdesc"=>"", "website"=>"", "desconfcentrelocation"=>"Brick Lane, Spitalfields", "fridayopenfrom"=>"09:00:00 AM", "pc"=>"E1 6RU", "town"=>"London", "lat"=>nil, "genopenhourcomments"=>"afternoons till 5. open 9 - 5", "wednesdayopento"=>"12:00:00 PM", "membershipstatus"=>"Yes", "distance"=>"1605.36086974 m", "email"=>"heba@ssba.info", "wednesdayopenfrom"=>"09:00:00 AM", "crechefacilitiesdesc"=>"1 - 5 years", "kml"=>"<Point><coordinates>-0.070207,51.52030182</coordinates></Point>"}, {"penportrait"=>"", "name"=>"S&G Training ltd", "sectortype"=>"Enterprise", "thursdayopento"=>"05:00:00 PM", "satudayopento"=>"04:00:00 PM", "parkingfacilitiesdesc"=>"", "sundayopento"=>"03:00:00 PM", "mondayopento"=>"05:00:00 PM", "location"=>"0101000020E6100000B14900A04D63BBBF0300004082C24940", "isgold"=>false, "addr2"=>"37-38 Hatton Garden", "accessfacilitiesdesc"=>"", "numworkstations"=>"20", "parkingfacilities"=>"No", "tuesdayopenfrom"=>"09:00:00 AM", "centretype"=>"Adult Education Service", "targetaudience"=>"People Over 50", "mondayopenfrom"=>"09:00:00 AM", "crechefacilities"=>"No", "fridayopento"=>"05:00:00 PM", "saturdayopenfrom"=>"10:00:00 AM", "thursdayopenfrom"=>"09:00:00 AM", "lng"=>nil, "street"=>"Diamond House", "county"=>"London", "client_id"=>3420764, "regionid"=>"London", "sundayopenfrom"=>"11:00:00 AM", "kml_str"=>"<Point><coordinates>-0.106984,51.51959991</coordinates></Point>", "tuesdayopento"=>"05:00:00 PM", "charges"=>"None", "cafecateringfacilities"=>"No", "phone"=>"0207 831 4546", "fax"=>"0207 831 0353", "cateringdesc"=>"", "website"=>"http://www.computercourses.co.uk", "desconfcentrelocation"=>"Hatton Garden, part of the diamond district in close proximity to St Paul's.", "fridayopenfrom"=>"09:00:00 AM", "pc"=>"EC1N 8EB", "town"=>"", "lat"=>nil, "genopenhourcomments"=>"", "wednesdayopento"=>"05:00:00 PM", "membershipstatus"=>"Yes", "distance"=>"1704.02249047 m", "email"=>"hayley@sandg.co.uk", "wednesdayopenfrom"=>"09:00:00 AM", "crechefacilitiesdesc"=>"", "kml"=>"<Point><coordinates>-0.106984,51.51959991</coordinates></Point>"}, {"penportrait"=>"", "name"=>"Attlee Centre", "sectortype"=>"Community / Voluntary", "thursdayopento"=>"07:00:00 PM", "satudayopento"=>"03:30:00 PM", "parkingfacilitiesdesc"=>"Parking available at nearby car park.", "sundayopento"=>"06:00:00 PM", "mondayopento"=>"09:00:00 PM", "location"=>"0101000020E6100000259EFFFF8F68B2BFFFFFFFDF36C24940", "isgold"=>false, "addr2"=>"", "accessfacilitiesdesc"=>"Fully accessible with lift.", "numworkstations"=>"0", "parkingfacilities"=>"No", "tuesdayopenfrom"=>"10:00:00 AM", "centretype"=>"Community/Voluntary Centre", "targetaudience"=>"The Unemployed", "mondayopenfrom"=>"10:00:00 AM", "crechefacilities"=>"No", "fridayopento"=>"09:00:00 PM", "saturdayopenfrom"=>"11:30:00 AM", "thursdayopenfrom"=>"10:00:00 AM", "lng"=>nil, "street"=>"5 Thrawl Street", "county"=>"", "client_id"=>3420630, "regionid"=>"London", "sundayopenfrom"=>"05:00:00 AM", "kml_str"=>"<Point><coordinates>-0.071908,51.51729965</coordinates></Point>", "tuesdayopento"=>"07:00:00 PM", "charges"=>"", "cafecateringfacilities"=>"Yes", "phone"=>"0207 375 3212", "fax"=>"", "cateringdesc"=>"Kitchen with access to all equipment.", "website"=>"http://www.attlee.org.uk", "desconfcentrelocation"=>"Youth and Community centre with purpose built IT suite (no IT), seminar rooms, sports hall, art space, outdoor adventure play ground, sports pitches and changing facilities.", "fridayopenfrom"=>"10:00:00 AM", "pc"=>"E1 6RT", "town"=>"London", "lat"=>nil, "genopenhourcomments"=>"The evening hours are predominantly open to young people, but we are also open to the public with advance notice.", "wednesdayopento"=>"09:00:00 PM", "membershipstatus"=>"Yes", "distance"=>"1758.11283091 m", "email"=>"info@attee.org.uk", "wednesdayopenfrom"=>"10:00:00 AM", "crechefacilitiesdesc"=>"", "kml"=>"<Point><coordinates>-0.071908,51.51729965</coordinates></Point>"}]):
+  app/controllers/search_controller.rb:13:in `postcode'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:56:56) [POST]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+RuntimeError ({"penportrait"=>"", "name"=>"The Foundation Training Company Limited", "sectortype"=>"Community / Voluntary", "thursdayopento"=>"05:00:00 PM", "satudayopento"=>"12:00:00 AM", "parkingfacilitiesdesc"=>"", "sundayopento"=>"12:00:00 AM", "mondayopento"=>"05:00:00 PM", "location"=>"0101000020E610000033BAFFBFCB7EB5BF0000000078C34940", "isgold"=>false, "addr2"=>"1-11 Baches Street", "accessfacilitiesdesc"=>"Door Entry System based on ground floor", "numworkstations"=>"14", "parkingfacilities"=>"No", "tuesdayopenfrom"=>"09:00:00 AM", "centretype"=>"Community/Voluntary Centre", "targetaudience"=>"Ex-offenders", "mondayopenfrom"=>"09:00:00 AM", "crechefacilities"=>"No", "fridayopento"=>"05:00:00 PM", "saturdayopenfrom"=>"12:00:00 AM", "thursdayopenfrom"=>"09:00:00 AM", "lng"=>nil, "street"=>"Karen House", "county"=>"London", "client_id"=>3420788, "regionid"=>"London", "sundayopenfrom"=>"12:00:00 AM", "kml_str"=>"<Point><coordinates>-0.083966,51.52709961</coordinates></Point>", "tuesdayopento"=>"05:00:00 PM", "charges"=>"No charges applicable", "cafecateringfacilities"=>"Yes", "phone"=>"0207 549 2166", "fax"=>"0207 549 6737", "cateringdesc"=>"Kitchen for drinks only", "website"=>"http://www.ftctraining.org", "desconfcentrelocation"=>"5 minutes walking distance from Old Street underground station", "fridayopenfrom"=>"09:00:00 AM", "pc"=>"N1 6DH", "town"=>"London", "lat"=>nil, "genopenhourcomments"=>"", "wednesdayopento"=>"05:00:00 PM", "membershipstatus"=>"Yes", "distance"=>"390.531797065 m", "email"=>"simonw@ftctraining.org", "wednesdayopenfrom"=>"09:00:00 AM", "crechefacilitiesdesc"=>"", "kml"=>"<Point><coordinates>-0.083966,51.52709961</coordinates></Point>"}):
+  app/controllers/search_controller.rb:13:in `postcode'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (105.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:57:11) [POST]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+RuntimeError ("--- \npenportrait: \"\"\nname: The Foundation Training Company Limited\nsectortype: Community / Voluntary\nthursdayopento: 05:00:00 PM\nsatudayopento: 12:00:00 AM\nparkingfacilitiesdesc: \"\"\nsundayopento: 12:00:00 AM\nmondayopento: 05:00:00 PM\nlocation: 0101000020E610000033BAFFBFCB7EB5BF0000000078C34940\nisgold: false\naddr2: 1-11 Baches Street\naccessfacilitiesdesc: Door Entry System based on ground floor\nnumworkstations: \"14\"\nparkingfacilities: \"No\"\ntuesdayopenfrom: 09:00:00 AM\ncentretype: Community/Voluntary Centre\ntargetaudience: Ex-offenders\nmondayopenfrom: 09:00:00 AM\ncrechefacilities: \"No\"\nfridayopento: 05:00:00 PM\nsaturdayopenfrom: 12:00:00 AM\nthursdayopenfrom: 09:00:00 AM\nlng: \nstreet: Karen House\ncounty: London\nclient_id: 3420788\nregionid: London\nsundayopenfrom: 12:00:00 AM\nkml_str: <Point><coordinates>-0.083966,51.52709961</coordinates></Point>\ntuesdayopento: 05:00:00 PM\ncharges: No charges applicable\ncafecateringfacilities: \"Yes\"\nphone: 0207 549 2166\nfax: 0207 549 6737\ncateringdesc: Kitchen for drinks only\nwebsite: http://www.ftctraining.org\ndesconfcentrelocation: 5 minutes walking distance from Old Street underground station\nfridayopenfrom: 09:00:00 AM\npc: N1 6DH\ntown: London\nlat: \ngenopenhourcomments: \"\"\nwednesdayopento: 05:00:00 PM\nmembershipstatus: \"Yes\"\ndistance: 390.531797065 m\nemail: simonw@ftctraining.org\nwednesdayopenfrom: 09:00:00 AM\ncrechefacilitiesdesc: \"\"\nkml: <Point><coordinates>-0.083966,51.52709961</coordinates></Point>\n"):
+  app/controllers/search_controller.rb:13:in `postcode'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:57:29) [GET]
+
+NoMethodError (private method `gsub' called for nil:NilClass):
+  /opt/local/lib/ruby/1.8/uri/common.rb:289:in `escape'
+  app/controllers/search_controller.rb:11:in `postcode'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (193.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:57:54) [POST]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+Rendering template within layouts/application
+Rendering "--- \npenportrait: \"\"\nname: The Foundation Training Company Limited\nsectortype: Community / Voluntary\nthursdayopento: 05:00:00 PM\nsatudayopento: 12:00:00 AM\nparkingfacilitiesdesc: \"\"\nsundayopento: 12:00:00 AM\nmondayopento: 05:00:00 PM\nlocation: 0101000020E610000033BAFFBFCB7EB5BF0000000078C34940\nisgold: false\naddr2: 1-11 Baches Street\naccessfacilitiesdesc: Door Entry System based on ground floor\nnumworkstations: \"14\"\nparkingfacilities: \"No\"\ntuesdayopenfrom: 09:00:00 AM\ncentretype: Community/Voluntary Centre\ntargetaudience: Ex-offenders\nmondayopenfrom: 09:00:00 AM\ncrechefacilities: \"No\"\nfridayopento: 05:00:00 PM\nsaturdayopenfrom: 12:00:00 AM\nthursdayopenfrom: 09:00:00 AM\nlng: \nstreet: Karen House\ncounty: London\nclient_id: 3420788\nregionid: London\nsundayopenfrom: 12:00:00 AM\nkml_str: <Point><coordinates>-0.083966,51.52709961</coordinates></Point>\ntuesdayopento: 05:00:00 PM\ncharges: No charges applicable\ncafecateringfacilities: \"Yes\"\nphone: 0207 549 2166\nfax: 0207 549 6737\ncateringdesc: Kitchen for drinks only\nwebsite: http://www.ftctraining.org\ndesconfcentrelocation: 5 minutes walking distance from Old Street underground station\nfridayopenfrom: 09:00:00 AM\npc: N1 6DH\ntown: London\nlat: \ngenopenhourcomments: \"\"\nwednesdayopento: 05:00:00 PM\nmembershipstatus: \"Yes\"\ndistance: 390.531797065 m\nemail: simonw@ftctraining.org\nwednesdayopenfrom: 09:00:00 AM\ncrechefacilitiesdesc: \"\"\nkml: <Point><coordinates>-0.083966,51.52709961</coordinates></Point>\n"
+
+ActionView::MissingTemplate (Missing template "--- \npenportrait: \"\"\nname: The Foundation Training Company Limited\nsectortype: Community / Voluntary\nthursdayopento: 05:00:00 PM\nsatudayopento: 12:00:00 AM\nparkingfacilitiesdesc: \"\"\nsundayopento: 12:00:00 AM\nmondayopento: 05:00:00 PM\nlocation: 0101000020E610000033BAFFBFCB7EB5BF0000000078C34940\nisgold: false\naddr2: 1-11 Baches Street\naccessfacilitiesdesc: Door Entry System based on ground floor\nnumworkstations: \"14\"\nparkingfacilities: \"No\"\ntuesdayopenfrom: 09:00:00 AM\ncentretype: Community/Voluntary Centre\ntargetaudience: Ex-offenders\nmondayopenfrom: 09:00:00 AM\ncrechefacilities: \"No\"\nfridayopento: 05:00:00 PM\nsaturdayopenfrom: 12:00:00 AM\nthursdayopenfrom: 09:00:00 AM\nlng: \nstreet: Karen House\ncounty: London\nclient_id: 3420788\nregionid: London\nsundayopenfrom: 12:00:00 AM\nkml_str: <Point><coordinates>-0.083966,51.52709961</coordinates></Point>\ntuesdayopento: 05:00:00 PM\ncharges: No charges applicable\ncafecateringfacilities: \"Yes\"\nphone: 0207 549 2166\nfax: 0207 549 6737\ncateringdesc: Kitchen for drinks only\nwebsite: http://www.ftctraining.org\ndesconfcentrelocation: 5 minutes walking distance from Old Street underground station\nfridayopenfrom: 09:00:00 AM\npc: N1 6DH\ntown: London\nlat: \ngenopenhourcomments: \"\"\nwednesdayopento: 05:00:00 PM\nmembershipstatus: \"Yes\"\ndistance: 390.531797065 m\nemail: simonw@ftctraining.org\nwednesdayopenfrom: 09:00:00 AM\ncrechefacilitiesdesc: \"\"\nkml: <Point><coordinates>-0.083966,51.52709961</coordinates></Point>\n" in view path app/views):
+  app/controllers/search_controller.rb:13:in `postcode'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:57:59) [POST]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+Rendering template within layouts/application
+Rendering "--- \npenportrait: \"\"\nname: The Foundation Training Company Limited\nsectortype: Community / Voluntary\nthursdayopento: 05:00:00 PM\nsatudayopento: 12:00:00 AM\nparkingfacilitiesdesc: \"\"\nsundayopento: 12:00:00 AM\nmondayopento: 05:00:00 PM\nlocation: 0101000020E610000033BAFFBFCB7EB5BF0000000078C34940\nisgold: false\naddr2: 1-11 Baches Street\naccessfacilitiesdesc: Door Entry System based on ground floor\nnumworkstations: \"14\"\nparkingfacilities: \"No\"\ntuesdayopenfrom: 09:00:00 AM\ncentretype: Community/Voluntary Centre\ntargetaudience: Ex-offenders\nmondayopenfrom: 09:00:00 AM\ncrechefacilities: \"No\"\nfridayopento: 05:00:00 PM\nsaturdayopenfrom: 12:00:00 AM\nthursdayopenfrom: 09:00:00 AM\nlng: \nstreet: Karen House\ncounty: London\nclient_id: 3420788\nregionid: London\nsundayopenfrom: 12:00:00 AM\nkml_str: <Point><coordinates>-0.083966,51.52709961</coordinates></Point>\ntuesdayopento: 05:00:00 PM\ncharges: No charges applicable\ncafecateringfacilities: \"Yes\"\nphone: 0207 549 2166\nfax: 0207 549 6737\ncateringdesc: Kitchen for drinks only\nwebsite: http://www.ftctraining.org\ndesconfcentrelocation: 5 minutes walking distance from Old Street underground station\nfridayopenfrom: 09:00:00 AM\npc: N1 6DH\ntown: London\nlat: \ngenopenhourcomments: \"\"\nwednesdayopento: 05:00:00 PM\nmembershipstatus: \"Yes\"\ndistance: 390.531797065 m\nemail: simonw@ftctraining.org\nwednesdayopenfrom: 09:00:00 AM\ncrechefacilitiesdesc: \"\"\nkml: <Point><coordinates>-0.083966,51.52709961</coordinates></Point>\n"
+
+ActionView::MissingTemplate (Missing template "--- \npenportrait: \"\"\nname: The Foundation Training Company Limited\nsectortype: Community / Voluntary\nthursdayopento: 05:00:00 PM\nsatudayopento: 12:00:00 AM\nparkingfacilitiesdesc: \"\"\nsundayopento: 12:00:00 AM\nmondayopento: 05:00:00 PM\nlocation: 0101000020E610000033BAFFBFCB7EB5BF0000000078C34940\nisgold: false\naddr2: 1-11 Baches Street\naccessfacilitiesdesc: Door Entry System based on ground floor\nnumworkstations: \"14\"\nparkingfacilities: \"No\"\ntuesdayopenfrom: 09:00:00 AM\ncentretype: Community/Voluntary Centre\ntargetaudience: Ex-offenders\nmondayopenfrom: 09:00:00 AM\ncrechefacilities: \"No\"\nfridayopento: 05:00:00 PM\nsaturdayopenfrom: 12:00:00 AM\nthursdayopenfrom: 09:00:00 AM\nlng: \nstreet: Karen House\ncounty: London\nclient_id: 3420788\nregionid: London\nsundayopenfrom: 12:00:00 AM\nkml_str: <Point><coordinates>-0.083966,51.52709961</coordinates></Point>\ntuesdayopento: 05:00:00 PM\ncharges: No charges applicable\ncafecateringfacilities: \"Yes\"\nphone: 0207 549 2166\nfax: 0207 549 6737\ncateringdesc: Kitchen for drinks only\nwebsite: http://www.ftctraining.org\ndesconfcentrelocation: 5 minutes walking distance from Old Street underground station\nfridayopenfrom: 09:00:00 AM\npc: N1 6DH\ntown: London\nlat: \ngenopenhourcomments: \"\"\nwednesdayopento: 05:00:00 PM\nmembershipstatus: \"Yes\"\ndistance: 390.531797065 m\nemail: simonw@ftctraining.org\nwednesdayopenfrom: 09:00:00 AM\ncrechefacilitiesdesc: \"\"\nkml: <Point><coordinates>-0.083966,51.52709961</coordinates></Point>\n" in view path app/views):
+  app/controllers/search_controller.rb:13:in `postcode'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 12:58:08) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 12:58:08) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:58:17) [GET]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+Rendering template within layouts/application
+Rendering "--- \npenportrait: \"\"\nname: The Foundation Training Company Limited\nsectortype: Community / Voluntary\nthursdayopento: 05:00:00 PM\nsatudayopento: 12:00:00 AM\nparkingfacilitiesdesc: \"\"\nsundayopento: 12:00:00 AM\nmondayopento: 05:00:00 PM\nlocation: 0101000020E610000033BAFFBFCB7EB5BF0000000078C34940\nisgold: false\naddr2: 1-11 Baches Street\naccessfacilitiesdesc: Door Entry System based on ground floor\nnumworkstations: \"14\"\nparkingfacilities: \"No\"\ntuesdayopenfrom: 09:00:00 AM\ncentretype: Community/Voluntary Centre\ntargetaudience: Ex-offenders\nmondayopenfrom: 09:00:00 AM\ncrechefacilities: \"No\"\nfridayopento: 05:00:00 PM\nsaturdayopenfrom: 12:00:00 AM\nthursdayopenfrom: 09:00:00 AM\nlng: \nstreet: Karen House\ncounty: London\nclient_id: 3420788\nregionid: London\nsundayopenfrom: 12:00:00 AM\nkml_str: <Point><coordinates>-0.083966,51.52709961</coordinates></Point>\ntuesdayopento: 05:00:00 PM\ncharges: No charges applicable\ncafecateringfacilities: \"Yes\"\nphone: 0207 549 2166\nfax: 0207 549 6737\ncateringdesc: Kitchen for drinks only\nwebsite: http://www.ftctraining.org\ndesconfcentrelocation: 5 minutes walking distance from Old Street underground station\nfridayopenfrom: 09:00:00 AM\npc: N1 6DH\ntown: London\nlat: \ngenopenhourcomments: \"\"\nwednesdayopento: 05:00:00 PM\nmembershipstatus: \"Yes\"\ndistance: 390.531797065 m\nemail: simonw@ftctraining.org\nwednesdayopenfrom: 09:00:00 AM\ncrechefacilitiesdesc: \"\"\nkml: <Point><coordinates>-0.083966,51.52709961</coordinates></Point>\n"
+
+ActionView::MissingTemplate (Missing template "--- \npenportrait: \"\"\nname: The Foundation Training Company Limited\nsectortype: Community / Voluntary\nthursdayopento: 05:00:00 PM\nsatudayopento: 12:00:00 AM\nparkingfacilitiesdesc: \"\"\nsundayopento: 12:00:00 AM\nmondayopento: 05:00:00 PM\nlocation: 0101000020E610000033BAFFBFCB7EB5BF0000000078C34940\nisgold: false\naddr2: 1-11 Baches Street\naccessfacilitiesdesc: Door Entry System based on ground floor\nnumworkstations: \"14\"\nparkingfacilities: \"No\"\ntuesdayopenfrom: 09:00:00 AM\ncentretype: Community/Voluntary Centre\ntargetaudience: Ex-offenders\nmondayopenfrom: 09:00:00 AM\ncrechefacilities: \"No\"\nfridayopento: 05:00:00 PM\nsaturdayopenfrom: 12:00:00 AM\nthursdayopenfrom: 09:00:00 AM\nlng: \nstreet: Karen House\ncounty: London\nclient_id: 3420788\nregionid: London\nsundayopenfrom: 12:00:00 AM\nkml_str: <Point><coordinates>-0.083966,51.52709961</coordinates></Point>\ntuesdayopento: 05:00:00 PM\ncharges: No charges applicable\ncafecateringfacilities: \"Yes\"\nphone: 0207 549 2166\nfax: 0207 549 6737\ncateringdesc: Kitchen for drinks only\nwebsite: http://www.ftctraining.org\ndesconfcentrelocation: 5 minutes walking distance from Old Street underground station\nfridayopenfrom: 09:00:00 AM\npc: N1 6DH\ntown: London\nlat: \ngenopenhourcomments: \"\"\nwednesdayopento: 05:00:00 PM\nmembershipstatus: \"Yes\"\ndistance: 390.531797065 m\nemail: simonw@ftctraining.org\nwednesdayopenfrom: 09:00:00 AM\ncrechefacilitiesdesc: \"\"\nkml: <Point><coordinates>-0.083966,51.52709961</coordinates></Point>\n" in view path app/views):
+  app/controllers/search_controller.rb:13:in `postcode'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:58:39) [GET]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+Rendering template within layouts/application
+Rendering {"penportrait"=>"", "name"=>"The Foundation Training Company Limited", "sectortype"=>"Community / Voluntary", "thursdayopento"=>"05:00:00 PM", "satudayopento"=>"12:00:00 AM", "parkingfacilitiesdesc"=>"", "sundayopento"=>"12:00:00 AM", "mondayopento"=>"05:00:00 PM", "location"=>"0101000020E610000033BAFFBFCB7EB5BF0000000078C34940", "isgold"=>false, "addr2"=>"1-11 Baches Street", "accessfacilitiesdesc"=>"Door Entry System based on ground floor", "numworkstations"=>"14", "parkingfacilities"=>"No", "tuesdayopenfrom"=>"09:00:00 AM", "centretype"=>"Community/Voluntary Centre", "targetaudience"=>"Ex-offenders", "mondayopenfrom"=>"09:00:00 AM", "crechefacilities"=>"No", "fridayopento"=>"05:00:00 PM", "saturdayopenfrom"=>"12:00:00 AM", "thursdayopenfrom"=>"09:00:00 AM", "lng"=>nil, "street"=>"Karen House", "county"=>"London", "client_id"=>3420788, "regionid"=>"London", "sundayopenfrom"=>"12:00:00 AM", "kml_str"=>"<Point><coordinates>-0.083966,51.52709961</coordinates></Point>", "tuesdayopento"=>"05:00:00 PM", "charges"=>"No charges applicable", "cafecateringfacilities"=>"Yes", "phone"=>"0207 549 2166", "fax"=>"0207 549 6737", "cateringdesc"=>"Kitchen for drinks only", "website"=>"http://www.ftctraining.org", "desconfcentrelocation"=>"5 minutes walking distance from Old Street underground station", "fridayopenfrom"=>"09:00:00 AM", "pc"=>"N1 6DH", "town"=>"London", "lat"=>nil, "genopenhourcomments"=>"", "wednesdayopento"=>"05:00:00 PM", "membershipstatus"=>"Yes", "distance"=>"390.531797065 m", "email"=>"simonw@ftctraining.org", "wednesdayopenfrom"=>"09:00:00 AM", "crechefacilitiesdesc"=>"", "kml"=>"<Point><coordinates>-0.083966,51.52709961</coordinates></Point>"}
+
+ActionView::MissingTemplate (Missing template {"penportrait"=>"", "name"=>"The Foundation Training Company Limited", "sectortype"=>"Community / Voluntary", "thursdayopento"=>"05:00:00 PM", "satudayopento"=>"12:00:00 AM", "parkingfacilitiesdesc"=>"", "sundayopento"=>"12:00:00 AM", "mondayopento"=>"05:00:00 PM", "location"=>"0101000020E610000033BAFFBFCB7EB5BF0000000078C34940", "isgold"=>false, "addr2"=>"1-11 Baches Street", "accessfacilitiesdesc"=>"Door Entry System based on ground floor", "numworkstations"=>"14", "parkingfacilities"=>"No", "tuesdayopenfrom"=>"09:00:00 AM", "centretype"=>"Community/Voluntary Centre", "targetaudience"=>"Ex-offenders", "mondayopenfrom"=>"09:00:00 AM", "crechefacilities"=>"No", "fridayopento"=>"05:00:00 PM", "saturdayopenfrom"=>"12:00:00 AM", "thursdayopenfrom"=>"09:00:00 AM", "lng"=>nil, "street"=>"Karen House", "county"=>"London", "client_id"=>3420788, "regionid"=>"London", "sundayopenfrom"=>"12:00:00 AM", "kml_str"=>"<Point><coordinates>-0.083966,51.52709961</coordinates></Point>", "tuesdayopento"=>"05:00:00 PM", "charges"=>"No charges applicable", "cafecateringfacilities"=>"Yes", "phone"=>"0207 549 2166", "fax"=>"0207 549 6737", "cateringdesc"=>"Kitchen for drinks only", "website"=>"http://www.ftctraining.org", "desconfcentrelocation"=>"5 minutes walking distance from Old Street underground station", "fridayopenfrom"=>"09:00:00 AM", "pc"=>"N1 6DH", "town"=>"London", "lat"=>nil, "genopenhourcomments"=>"", "wednesdayopento"=>"05:00:00 PM", "membershipstatus"=>"Yes", "distance"=>"390.531797065 m", "email"=>"simonw@ftctraining.org", "wednesdayopenfrom"=>"09:00:00 AM", "crechefacilitiesdesc"=>"", "kml"=>"<Point><coordinates>-0.083966,51.52709961</coordinates></Point>"} in view path app/views):
+  app/controllers/search_controller.rb:13:in `postcode'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:58:50) [GET]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+NoMethodError (undefined method `name' for #<Hash:0x103819a08>):
+  app/controllers/search_controller.rb:13:in `postcode'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:58:57) [GET]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+Rendering template within layouts/application
+Rendering {"penportrait"=>"", "name"=>"The Foundation Training Company Limited", "sectortype"=>"Community / Voluntary", "thursdayopento"=>"05:00:00 PM", "satudayopento"=>"12:00:00 AM", "parkingfacilitiesdesc"=>"", "sundayopento"=>"12:00:00 AM", "mondayopento"=>"05:00:00 PM", "location"=>"0101000020E610000033BAFFBFCB7EB5BF0000000078C34940", "isgold"=>false, "addr2"=>"1-11 Baches Street", "accessfacilitiesdesc"=>"Door Entry System based on ground floor", "numworkstations"=>"14", "parkingfacilities"=>"No", "tuesdayopenfrom"=>"09:00:00 AM", "centretype"=>"Community/Voluntary Centre", "targetaudience"=>"Ex-offenders", "mondayopenfrom"=>"09:00:00 AM", "crechefacilities"=>"No", "fridayopento"=>"05:00:00 PM", "saturdayopenfrom"=>"12:00:00 AM", "thursdayopenfrom"=>"09:00:00 AM", "lng"=>nil, "street"=>"Karen House", "county"=>"London", "client_id"=>3420788, "regionid"=>"London", "sundayopenfrom"=>"12:00:00 AM", "kml_str"=>"<Point><coordinates>-0.083966,51.52709961</coordinates></Point>", "tuesdayopento"=>"05:00:00 PM", "charges"=>"No charges applicable", "cafecateringfacilities"=>"Yes", "phone"=>"0207 549 2166", "fax"=>"0207 549 6737", "cateringdesc"=>"Kitchen for drinks only", "website"=>"http://www.ftctraining.org", "desconfcentrelocation"=>"5 minutes walking distance from Old Street underground station", "fridayopenfrom"=>"09:00:00 AM", "pc"=>"N1 6DH", "town"=>"London", "lat"=>nil, "genopenhourcomments"=>"", "wednesdayopento"=>"05:00:00 PM", "membershipstatus"=>"Yes", "distance"=>"390.531797065 m", "email"=>"simonw@ftctraining.org", "wednesdayopenfrom"=>"09:00:00 AM", "crechefacilitiesdesc"=>"", "kml"=>"<Point><coordinates>-0.083966,51.52709961</coordinates></Point>"}
+
+ActionView::MissingTemplate (Missing template {"penportrait"=>"", "name"=>"The Foundation Training Company Limited", "sectortype"=>"Community / Voluntary", "thursdayopento"=>"05:00:00 PM", "satudayopento"=>"12:00:00 AM", "parkingfacilitiesdesc"=>"", "sundayopento"=>"12:00:00 AM", "mondayopento"=>"05:00:00 PM", "location"=>"0101000020E610000033BAFFBFCB7EB5BF0000000078C34940", "isgold"=>false, "addr2"=>"1-11 Baches Street", "accessfacilitiesdesc"=>"Door Entry System based on ground floor", "numworkstations"=>"14", "parkingfacilities"=>"No", "tuesdayopenfrom"=>"09:00:00 AM", "centretype"=>"Community/Voluntary Centre", "targetaudience"=>"Ex-offenders", "mondayopenfrom"=>"09:00:00 AM", "crechefacilities"=>"No", "fridayopento"=>"05:00:00 PM", "saturdayopenfrom"=>"12:00:00 AM", "thursdayopenfrom"=>"09:00:00 AM", "lng"=>nil, "street"=>"Karen House", "county"=>"London", "client_id"=>3420788, "regionid"=>"London", "sundayopenfrom"=>"12:00:00 AM", "kml_str"=>"<Point><coordinates>-0.083966,51.52709961</coordinates></Point>", "tuesdayopento"=>"05:00:00 PM", "charges"=>"No charges applicable", "cafecateringfacilities"=>"Yes", "phone"=>"0207 549 2166", "fax"=>"0207 549 6737", "cateringdesc"=>"Kitchen for drinks only", "website"=>"http://www.ftctraining.org", "desconfcentrelocation"=>"5 minutes walking distance from Old Street underground station", "fridayopenfrom"=>"09:00:00 AM", "pc"=>"N1 6DH", "town"=>"London", "lat"=>nil, "genopenhourcomments"=>"", "wednesdayopento"=>"05:00:00 PM", "membershipstatus"=>"Yes", "distance"=>"390.531797065 m", "email"=>"simonw@ftctraining.org", "wednesdayopenfrom"=>"09:00:00 AM", "crechefacilitiesdesc"=>"", "kml"=>"<Point><coordinates>-0.083966,51.52709961</coordinates></Point>"} in view path app/views):
+  app/controllers/search_controller.rb:13:in `postcode'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#postcode (for 127.0.0.1 at 2010-08-07 12:59:06) [GET]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+SyntaxError (/Users/dan/code/misc/ukonline_sms/app/controllers/search_controller.rb:13: syntax error, unexpected '['
+    render data[0].["name"].inspect
+                    ^
+/Users/dan/code/misc/ukonline_sms/app/controllers/search_controller.rb:13: syntax error, unexpected ']', expecting kEND
+    render data[0].["name"].inspect
+                           ^):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (97.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:59:11) [GET]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+ActionView::MissingTemplate (Missing template search/"The Foundation Training Company Limited".erb in view path app/views):
+  app/controllers/search_controller.rb:13:in `postcode'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:59:19) [GET]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+RuntimeError ("The Foundation Training Company Limited"):
+  app/controllers/search_controller.rb:13:in `postcode'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 12:59:32) [GET]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+RuntimeError (nil):
+  app/controllers/search_controller.rb:14:in `postcode'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (34.8ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 13:01:46) [GET]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+RuntimeError ("The Foundation Training Company Limited - 0207 549 2166"):
+  app/controllers/search_controller.rb:14:in `postcode'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (113.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 13:02:12) [GET]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+ActionView::MissingTemplate (Missing template search/postcode.erb in view path app/views):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 13:03:30) [GET]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+ActionView::MissingTemplate (Missing template search/postcode.erb in view path app/views):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 13:03:53) [GET]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+
+ActionView::MissingTemplate (Missing template search/postcode.erb in view path app/views):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 13:07:05) [GET]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+Redirected to http://localhost:3000/
+Completed in 1693ms (DB: 0) | 302 Found [http://localhost/search/postcode?number=07595327777&postcode=n1+7rd]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 13:07:07) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 77ms (View: 75, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 13:07:07) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 13:07:31) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 13:07:31) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 13:07:41) [GET]
+  Parameters: {"number"=>"07595327777", "postcode"=>"n1 7rd"}
+Redirected to http://localhost:3000/
+Completed in 1799ms (DB: 0) | 302 Found [http://localhost/search/postcode?number=07595327777&postcode=n1+7rd]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 13:07:43) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 13:07:43) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 13:08:52) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 13:08:52) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 13:08:59) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 13:08:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 13:09:23) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 13:09:23) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 13:09:32) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 63ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 13:09:32) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SearchController#postcode (for 127.0.0.1 at 2010-08-07 13:09:39) [GET]
+  Parameters: {"number"=>"07595327777", "postcode"=>"N1 7RD"}
+Redirected to http://localhost:3000/
+Completed in 1984ms (DB: 0) | 302 Found [http://localhost/search/postcode?number=07595327777&postcode=N1+7RD]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-07 13:09:41) [GET]
+Rendering template within layouts/application
+Rendering index/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-07 13:09:41) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)

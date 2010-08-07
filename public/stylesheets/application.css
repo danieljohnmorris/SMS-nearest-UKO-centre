@@ -1,0 +1,56 @@
+body {
+}
+
+form {
+	position: relative;
+}
+
+#phone { 
+	height: 700px;
+	background-image: url('/images/phone.png');
+	background-repeat: no-repeat;
+	padding: 15em 0 0 5em;
+}
+	#phone input { 
+		font-size: 1.5em;
+		width: 8em;
+	}
+	#phone button { 
+		font-size: 1.5em;
+		border: 1px solid #888;
+		background-color: #fff;
+	}
+	
+.messages .error, .messages .info, .messages .highlight, .messages .success {
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 3px solid;	
+	position: relative;
+	overflow: auto;
+}
+	.messages .error p, .messages .info p, .messages .highlight p, .messages .success p {
+		margin: 0;
+		position: relative;
+	}
+	.messages .highlight p {
+		margin: 0 0 15px 0;
+	}
+	#messages .info {
+		background: #fff;
+		border-color: #ddd;
+	}
+	.messages .highlight {
+		background: #FFFEEB;
+		border-color: #F7F7ED;
+	}
+	.messages .error {
+		background: #FFDFDF;
+		border-color: #F3AFB5;
+	}
+	.messages .success {
+		background: #C8FFBF;
+		border-color: #A2EF95;
+	}
+	.messages .message p {
+		margin: 5px 0 10px 0;
+	}

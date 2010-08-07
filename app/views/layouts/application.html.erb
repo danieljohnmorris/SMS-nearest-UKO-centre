@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;.
+	charset=iso-8859-1" />
+	<meta http-equiv="Content-Language" content="en-us" />
+	<title>Library Info System</title>
+
+	<%= stylesheet_link_tag "application" %>
+	<%= javascript_include_tag 'jquery', 'application' %>
+</head>
+<body id="doc">
+	<div id="container">
+		<div id="header">
+			<h3>Rewired State - UK Online SMS</h3>
+		</div>
+		<div id="content">
+			<div class="messages">
+				<% if flash[:error] -%>
+				<p class='error'>
+				  <%=h flash[:error] %>
+				</p>
+				<% end -%>
+
+				<% if flash[:success] -%>
+				<p class='success'>
+				  <%=h flash[:success] %>
+				</p>
+				<% end -%>
+			</div>
+	
+			<%= yield -%>
+		</div>
+		<div id="sidebar"></div>
+	</div>
+</body>
+</html>
