@@ -1,0 +1,14 @@
+development:
+    clickatell_api_id: "3252713"
+    clickatell_username: danielmorris
+    clickatell_password: jingerst
+
+test:
+    clickatell_api_id: YOUR_ID_HERE
+    clickatell_username: YOUR_USERNAME_HERE
+    clickatell_password: YOUR_PASSWORD_HERE
+        
+production:
+    clickatell_api_id: YOUR_ID_HERE
+    clickatell_username: YOUR_USERNAME_HERE
+    clickatell_password: YOUR_PASSWORD_HERE
