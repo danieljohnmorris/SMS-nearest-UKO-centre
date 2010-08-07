@@ -9,7 +9,7 @@ class SearchController < ApplicationController
   
   def postcode
     json = Net::HTTP.get(URI.parse("http://ukonline.talusdesign.co.uk/api/nearest_by_postcode/#{URI.escape(params[:postcode])}/"))
-    data = ActiveSupport::JSON.decode(json)
+    data = JSON.parse(json)
     message = "Nearest UK Online centre: #{data[0]["name"]} (#{data[0]["phone"]}) #{data[0]["street"]}, #{data[0]["addr2"]}, #{data[0]["town"]}, #{data[0]["pc"]}"
     
     @sms = SMS.new
